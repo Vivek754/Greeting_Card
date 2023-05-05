@@ -1,0 +1,144 @@
+body {
+    background-color: #FF5D8F;
+    margin: 0px;
+}
+
+.wishContainer {
+    color: #FFACC5;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    -webkit-text-stroke: 1px #FFCAD4;
+    text-shadow: 0px 0px 25px #FF97B7, 0 0 25px #F4ACB7;
+    padding-top: 65%;
+
+}
+
+.wishContainer>p {
+    margin: 0 0 0 0;
+}
+
+#vector1 {
+    position: fixed;
+    z-index: 0;
+    margin: 0;
+    width: 50%;
+    right: -10px;
+    top: 15%;
+}
+
+#bgLower {
+    position: fixed;
+    z-index: 0;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.upperCurtan {
+    background-color: white;
+    font-weight: 100%;
+    width: -webkit-fill-available;
+    height: 50%;
+    transition: ease-out 0.5s;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.lowerCurtan {
+    background-color: white;
+    font-weight: 100%;
+    width: -webkit-fill-available;
+    height: 50%;
+    transition: ease-out 0.5s;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.btn {
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    margin-left: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 45%;
+}
+
+#anuj {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-left: 65%;
+}
+
+#corona1 {
+    margin: 30px 0 0 20px;
+}
+
+#corona2 {
+    left: 70px;
+    top: 55%;
+}
+
+#corona3 {
+    bottom: 20%;
+    right: 20px;
+}
+
+.corona {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: rotation infinite 20s linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.pills {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#pill1 {
+    top: 10%;
+    left: 15%;
+}
+
+#pill2 {
+    top: 5%;
+    right: 25%;
+}
+
+#pill3 {
+    top: 50%;
+    right: 10%;
+}
+
+#pill4 {
+    top: 25%;
+    left: 40%;
+}
+
+#pill5 {
+    top: 75%;
+    left: 5%;
+}
+#pill6{
+    bottom: 25%;
+    left: 50%;
+}
